@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Mrandr by playerC</title>
+    <title>mrandr by playerC</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -31,8 +31,8 @@
 
       <section>
         <div id="title">
-          <h1>Mrandr</h1>
-          <p>设置 MAC OS X 系统屏幕分辨率命令行工具</p>
+          <h1>mrandr</h1>
+          <p>设置 MAC OS X 系统屏幕分辨率的命令行工具</p>
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/playerC">playerC</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
@@ -42,6 +42,55 @@
 <a id="mrandr" class="anchor" href="#mrandr" aria-hidden="true"><span class="octicon octicon-link"></span></a>mrandr</h1>
 
 <p>设置 MAC OS X 系统屏幕分辨率的命令行工具</p>
+
+<p>注意：
+ 这个程序只能在 MAC OS X 10.6 和 更新的系统上运行.</p>
+
+<h2>
+<a id="使用说明" class="anchor" href="#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E" aria-hidden="true"><span class="octicon octicon-link"></span></a>使用说明</h2>
+
+<p>直接在finder 中双击打开mrandr 可执行文件，提示选择显示器,如下。</p>
+
+<pre><code>mrandr v0.1 
+Copyright (c) 2014 playerc &lt;playerc@msn.cn&gt;
+!!!This program only run on mac os x 10.6 and later.
+Display List:
+    0 : 8547
+Choose a display:
+</code></pre>
+
+<p>中间 <code>Display List</code> 下面的内容不同的显示器显示的不同，输入开头的数字便选择了这个显示器。</p>
+
+<p>选择完显示器后会提示选择显示模式，也就是显示分辨率了:</p>
+
+<pre><code> Mode List:
+      0 : 1280* 1024*33554439@ 60
+ *    1 : 1920* 1080* 3@ 60
+      2 : 1280* 1024* 3@ 75
+      3 : 1024*  768* 3@ 75
+      4 : 1024*  768* 3@ 70
+      5 : 1024*  768* 3@ 60
+      6 :  800*  600* 3@ 75
+      7 :  800*  600* 3@ 72
+      8 :  800*  600* 3@ 60
+      9 :  800*  600* 3@ 56
+     10 :  640*  480* 3@ 75
+     11 :  640*  480* 3@ 72
+     12 :  640*  480* 3@ 59
+     13 :  848*  480* 1@ 60
+     14 : 1280*  960* 1@ 60
+     15 : 1280*  960* 1@ 75
+     16 : 1360*  768* 1@ 60
+     17 : 1920* 1080* 1@ 60
+     18 :  640*  512* 3@ 60
+     19 :  800*  640* 3@ 60
+     20 : 1024*  820* 3@ 60
+choose a mode :
+</code></pre>
+
+<p>同样 <code>Mode List</code> 下得内容也是根据显示器的不同显示不同。开头带 <code>*</code> 号的是正在使用的模式。输入第一列的数字就选择了这个模式。</p>
+
+<p>显示模式更改后，会一直在这个显示模式下工作，重启也是一样。</p>
       </section>
 
     </div>
